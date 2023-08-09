@@ -5,12 +5,6 @@ class Animal:
         self.animal = animal
         self.species = species
 
-    """def animal(self):
-        return self.animal
-    
-    def species(self):
-        return self.species"""
-
     def display_info(self):
         print(f"Animal: {self.animal}\nSpecies: {self.species}")
         
